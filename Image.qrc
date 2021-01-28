@@ -1,0 +1,27 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>image/circulation.png</file>
+        <file>image/exit.png</file>
+        <file>image/fangda.png</file>
+        <file>image/list.png</file>
+        <file>image/lyric.png</file>
+        <file>image/max.png</file>
+        <file>image/min.png</file>
+        <file>image/next.png</file>
+        <file>image/prev.png</file>
+        <file>image/search.png</file>
+        <file>image/volume.png</file>
+        <file>Style/Player.css</file>
+        <file>Style/topWidget.css</file>
+        <file>Style/bottomWidget.css</file>
+        <file>Style/centreWidget.css</file>
+        <file>image/dibuico.png</file>
+        <file>image/Music.png</file>
+        <file>image/setting.png</file>
+        <file>image/skin.png</file>
+        <file>image/pause.png</file>
+        <file>image/play.png</file>
+        <file>image/mute.png</file>
+        <file>image/setting_slider_handle.png</file>
+           </qresource>
+</RCC>

@@ -1,0 +1,79 @@
+/*循环*/
+QPushButton#circulation {
+    border-image: url(":/image/circulation.png");
+}
+
+/*上一首*/
+QPushButton#prev {
+    border-image: url(":/image/prev.png");
+}
+
+/*暂停*/
+QPushButton#stop {
+    border-radius: 500px;
+    background-color: cyan;
+    border-image: url(":/image/pause.png");
+}
+
+/*下一首*/
+QPushButton#next {
+    border-image: url(":/image/next.png");
+}
+
+/*歌词*/
+QPushButton#lyrics {
+    border-image: url(":/image/lyric.png");
+}
+
+/*音量*/
+QPushButton#volume {
+    border-image: url(":/image/volume.png");
+}
+
+/*音乐列表*/
+QPushButton#list {
+    border-image: url(":/image/list.png");
+}
+/*
+QProgressBar#progressBar {
+    border: 1px solid rgb(16, 135, 209);
+    background: rgba(248,248,255,180);
+    border-radius: 6px;
+}
+
+QProgressBar::chunk:enabled {
+    border-radius: 4px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0;
+}*/
+/* 伪状态栏*/
+QPushButton #circulation:hover, #prev:hover, #prev:hover, #stop:hover, #next:hover, #lyrics:hover, #volume:hover, #list:hover {
+    border: none;
+    border-style: none;
+    background-color: aliceblue;
+}
+
+QSlider::add-page:Horizontal {
+    background-color: rgb(87, 97, 106);
+    height: 4px;
+}
+
+
+QSlider::sub-page:Horizontal {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(231,80,229, 255), stop:1 rgba(7,208,255, 255));
+    height: 6px;
+}
+
+
+QSlider::groove:Horizontal {
+    background: transparent;
+    border-radius: 6px;
+    height: 8px;
+}
+
+
+QSlider::handle:Horizontal {
+    height: 40px;
+    width: 25px;
+    border-image: url(:/image/setting_slider_handle.png);
+    margin: -8 0px;
+}

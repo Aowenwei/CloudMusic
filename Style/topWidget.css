@@ -1,0 +1,48 @@
+QWidget#TopWidget {
+    background-color: fuchsia;
+}
+
+QLabel#MusicLogo {
+    border-image: url(":/image/dibuico.png");
+}
+
+QPushButton#exit, #min, #max, #skin, #setting {
+    /*    margin-right: 20px;
+    border-style: solid;
+    height:30px;*/
+    width: 20px;
+    border-radius: 10px; /*边界半径(越大，圆角越大)*/
+}
+
+QLineEdit#search {
+    height: 20px;
+    width: 140pX;
+    border-radius: 5px; /*边界半径(越大，圆角越大)*/
+}
+
+QPushButton#setting {
+    border-image: url(":/image/setting.png");
+}
+
+QPushButton#skin {
+    width: 30px;
+    border-image: url(":/image/skin.png");
+    border-radius: 10px; /*边界半径(越大，圆角越大)*/
+}
+
+QPushButton#min {
+    border-image: url(":/image/min.png");
+}
+
+QPushButton#max {
+    border-image: url(":/image/max.png");
+}
+
+QPushButton#exit {
+    border-image: url(":/image/exit.png");
+}
+
+    /* 伪状态栏*/
+    QPushButton#exit:hover, #max:hover, #min:hover, #search:hover, #setting:hover, #skin:hover {
+        background-color: white;
+    }

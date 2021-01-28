@@ -1,0 +1,15 @@
+
+/*侧边栏*/
+QListWidget::items {
+    height: 50px;
+    border: 0px solid gray;
+}
+
+QListWidget::item {
+    min-height: 40px; /*设置每个item的高度*/
+    color: rgb(88, 88, 88); /*文字颜色*/
+}
+    /*鼠标悬停效果*/
+    QListWidget::item:hover {
+        color: rgb(138,43,226);
+    }
